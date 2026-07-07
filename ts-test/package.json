@@ -1,0 +1,8 @@
+{
+  "name": "paps-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-wasm-modules test.mjs"
+  }
+}

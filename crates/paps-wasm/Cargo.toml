@@ -1,0 +1,18 @@
+[package]
+name = "paps-wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "PAPS WASM 绑定层 —— 为 Web 前端提供人格生成与分析接口"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+paps-core = { path = "../paps-core" }
+serde.workspace = true
+serde_json.workspace = true
+wasm-bindgen = "0.2"
+getrandom = { version = "0.2", features = ["js"] }
+console_error_panic_hook = "0.1"

@@ -1,0 +1,16 @@
+[package]
+name = "paps-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "PAPS 人格原子参数系统核心库 —— 人格生成、漂移模拟、相变引擎、关系坍缩、耦合推理"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+rand.workspace = true
+rand_chacha.workspace = true
+chrono.workspace = true
+thiserror.workspace = true
+once_cell.workspace = true
