@@ -2,6 +2,10 @@
 
 **Personality Atomic Parameter System**
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org)
+[![WASM](https://img.shields.io/badge/wasm-supported-purple.svg)](https://webassembly.org)
+
 > 这里没有"人格类型"。没有"好人"与"坏人"。没有"原型"。
 > 这里只有参数。参数在关系中坍缩。参数在时间里漂移。参数在情境中撕裂。
 > 每一个具体的人 = 所有参数在特定历史/关系/情境下的唯一一次取值。
@@ -274,4 +278,10 @@ cd ts-test && node theory_test.mjs
 
 ## 许可
 
-Apache License, Version 2.0
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+本项目采用 Apache License, Version 2.0。详见 [LICENSE](LICENSE) 文件。
+
+## 作者
+
+[Eisrstary](https://github.com/Eisrstary)
